@@ -5,6 +5,8 @@ $("head").append('<link href="https://www.marcovega.co/bonativo/bonativo.css" re
 $('#catalog-products').before('<div id="category-menu-mobile"></div>');
 $('#category-menu-mobile').html('<a class="filter" href="#"><span class="fa fa-filter"></span> Filter</a>');
 
+$("head").append('<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">');
+
 // Making the mobile categories
 $('#categories').append('<a id="menu-mobile" href="#"><span class="fa fa-ellipsis-v"></span> Produktkategorien</a>');
 
